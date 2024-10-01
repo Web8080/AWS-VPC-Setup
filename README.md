@@ -4,7 +4,7 @@ Overview
 
 This project involves creating a custom Virtual Private Cloud (VPC) in AWS, along with configuring essential networking components such as subnets and an internet gateway. This step-by-step guide will walk you through setting up a VPC and preparing your AWS resources for secure, scalable deployments.
 
-Table of Contents
+#Table of Contents
 
 -Introduction to VPC
 -Project Steps
@@ -15,16 +15,16 @@ Table of Contents
 -Next Steps
 
 
--Introduction to VPC
+#Introduction to VPC
 
 A Virtual Private Cloud (VPC) in AWS is like managing your own private city within the AWS cloud. It enables you to configure isolated environments, including neighborhoods (subnets), traffic rules (route tables), and security (NACLs, Security Groups), to keep your AWS resources secure.
 
 
 Without VPCs, resources would be deployed in an unstructured, open space. VPCs give you control and ensure that your resources are secure and organized, preventing a chaotic environment like an unmanaged city without boundaries.
 
--Project Steps
+#Project Steps
 
-Step 1: Create a VPC
+#Step 1: Create a VPC
 -Search for VPC: In the AWS Management Console, search for "VPC" and select it from the dropdown.
 
 -Select Your VPC: In the left navigation pane, choose "Your VPCs."
@@ -38,7 +38,7 @@ Step 1: Create a VPC
 -Save and create the VPC.
 
 
-Step 2: Create Subnets
+#Step 2: Create Subnets
 
 -Navigate to Subnets: On the VPC Dashboard, select "Subnets."
 
@@ -57,7 +57,7 @@ Step 2: Create Subnets
 Note: Naming a subnet "Public" doesn’t automatically make it public. You need to route it through an Internet Gateway.
 
 
-Step 3: Create an Internet Gateway
+#Step 3: Create an Internet Gateway
 
 -Go to Internet Gateways: In the VPC console, select "Internet Gateways."
 
@@ -67,21 +67,21 @@ Step 3: Create an Internet Gateway
 
 
 
--Key Concepts
+#Key Concepts
 
-Virtual Private Cloud (VPC)
+-Virtual Private Cloud (VPC)
 
 A VPC is an isolated section of the AWS cloud where you can launch AWS resources in a virtual network.
 
 
-Subnets
+-Subnets
 
 Subnets are subdivisions of your VPC, grouping resources with similar access rules. Public subnets connect to the internet, while private subnets are isolated.
 
 
-Internet Gateway
+-Internet Gateway
 An Internet Gateway allows resources in your VPC to access the internet. It's a gateway between your private network and the public internet.
 
--Next Steps
+#Next Steps
 
 Although we've successfully created a VPC, subnet, and attached an Internet Gateway, instances in your public subnet still need a route to the internet. In the next steps, you'll configure route tables to allow traffic to pass through your Internet Gateway.
