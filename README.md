@@ -12,7 +12,7 @@ This project involves creating a custom Virtual Private Cloud (VPC) in AWS, alon
 -Step 2: Create Subnets
 -Step 3: Create an Internet Gateway
 -Key Concepts
--Next Steps
+-Next Steps.
 
 
 #Introduction to VPC
