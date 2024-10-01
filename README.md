@@ -2,7 +2,7 @@
 
 Overview
 
-This project involves creating a custom Virtual Private Cloud (VPC) in AWS, along with configuring essential networking components such as subnets and an internet gateway. This step-by-step guide will walk you through setting up a VPC and preparing your AWS resources for secure, scalable deployments.
+This project involves creating a custom Virtual Private Cloud (VPC) in AWS, along with configuring essential networking components such as subnets and an internet gateway. This step-by-step guide will walk you through setting up a VPC and preparing your AWS resources for secure, scalable deployments. documentation and snippets of the workflow for this project can be found in the pdf file for this repo
 
 #Table of Contents
 
